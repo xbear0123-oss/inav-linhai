@@ -138,7 +138,7 @@
 #define SERIALRX_PROVIDER       SERIALRX_CRSF
 #define SERIALRX_UART           SERIAL_PORT_USART2
 
-// *************** ADC ***************************
+// *************** ADC ***************************.
 #define USE_ADC
 #define ADC_INSTANCE                ADC1
 #define ADC1_DMA_STREAM             DMA2_Stream4
