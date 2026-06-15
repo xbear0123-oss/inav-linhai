@@ -5,7 +5,8 @@ name: Build firmware
 on: 
   push:
     branches:
-      - '!maintenance-8.x.x'
+-   BearF405TE-8.0.1
+    workflow_dispatch:  # 👈 加上这行，解锁手动按钮
   pull_request:
     paths:
       - 'src/**'
