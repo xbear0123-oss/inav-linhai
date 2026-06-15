@@ -41,12 +41,10 @@
 #define SPI1_MISO_PIN   	    PB4
 #define SPI1_MOSI_PIN   	    PA7
 
-/*
 #define USE_IMU_ICM42605
 #define IMU_ICM42605_ALIGN      CW270_DEG_FLIP
 #define ICM42605_SPI_BUS        BUS_SPI1
 #define ICM42605_CS_PIN         PC14
-*/
 
 #define USE_IMU_BMI270
 #define IMU_BMI270_ALIGN        CW270_DEG_FLIP
@@ -54,11 +52,11 @@
 #define BMI270_CS_PIN           PC14
 
 
-/*
+
 #define USE_MAX7456
 #define MAX7456_SPI_BUS         BUS_SPI1
 #define MAX7456_CS_PIN          PB12
-*/
+
 // *************** SPI2 Flash/SD Card  ****************
 #define USE_SPI_DEVICE_2
 #define SPI2_SCK_PIN            PB13
@@ -154,10 +152,8 @@
 // *************** PINIO ***************************
 #define USE_PINIO
 #define USE_PINIOBOX
-//#define PINIO1_PIN                  PA4
-//#define PINIO2_PIN                  PB5
-#define PINIO1_PIN                  PB0
-#define PINIO2_PIN                  PB12
+#define PINIO1_PIN                  PA4
+#define PINIO2_PIN                  PB5
 
 // *************** LEDSTRIP ************************
 #define USE_LED_STRIP
