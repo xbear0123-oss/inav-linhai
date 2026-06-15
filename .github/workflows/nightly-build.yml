@@ -5,6 +5,8 @@ name: Build pre-release
 on: 
   push:
     branches:
+      - master
+      - maintenance-8.x.x
       - maintenance-8.x.x
     paths:
       - 'src/**'
