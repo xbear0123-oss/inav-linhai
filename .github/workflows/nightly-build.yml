@@ -7,6 +7,7 @@ on:
     branches:
       - BearF405TE-8.0.1
       - maintenance-8.x.x
+      workflow_dispatch:
     paths:
       - 'src/**'
       - '.github/**'
