@@ -5,7 +5,7 @@ name: Build pre-release
 on: 
   push:
     branches:
-      - master
+      - BearF405TE-8.0.1
       - maintenance-8.x.x
     paths:
       - 'src/**'
